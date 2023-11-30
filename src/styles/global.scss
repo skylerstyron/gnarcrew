@@ -16,6 +16,21 @@ p {
     font-size: 20px;
 }
 
+// Products
+
+.product .back {
+    display: none;
+}
+
+.product:hover, .product:focus {
+    .front {
+        display: none;
+    }
+    .back {
+        display: block;
+    }
+}
+
 
 /* Footer */
 footer {
